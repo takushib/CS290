@@ -1,0 +1,140 @@
+/*
+title
+ */
+
+header .site-title{
+  background-color: #4da6ff;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.fa-hand-lizard{
+  height: auto;
+}
+
+h1{
+  font-family: Roboto;
+  color: white;
+  font-weight: lighter;
+}
+
+
+header ul a:focus{
+  text-decoration: none; border-bottom: 3px solid #4da6ff;
+}
+header ul a:hover{
+  color: #4da6ff;
+}
+
+header li:nth-child(1){
+  font-family: Roboto;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  left: -35px;
+  top: -10px;
+  background-color: white;
+}
+
+header li:nth-child(2){
+  font-family: Roboto;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  left: -25px;
+  top: -10px;
+  background-color: white;
+}
+
+header li:nth-child(3){
+  font-family: Roboto;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  left: -15px;
+  top: -10px;
+  background-color: white;
+}
+
+header li:nth-child(4){
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  right: -1500px;
+}
+header button{
+  border-color: white;
+}
+header button:hover{
+  color: #56baf8;
+  cursor: pointer;
+}
+
+header input{
+  background-color: #DCDCDC;
+}
+
+header input:focus{
+  background-color: white;
+}
+
+.twit-container{
+  background-color: #f2f2f2;
+  background-clip: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 500px));
+  grid-template-rows: repeat(auto-fill, minmax(100px, 175px));
+
+}
+
+main .twit{
+  background-color: white;
+  display: flex;
+  transform: translateY(50px);
+  font-family: Roboto;
+}
+main .twit-icon{
+  transform: translateY(20px);
+}
+
+main .twit-text{
+  transform: translateX(15px);
+  font-size: 16px;
+}
+
+main a{
+  text-decoration: none;
+  position: relative;
+  font-weight: bolder;
+  color: black;
+  display: flex;
+}
+main a:hover{
+  color: #4da6ff;
+}
+
+body #create-twit-button{
+  position: relative;
+  display: inline-block;
+  top:0;
+  background-color: red;
+  transform: scale(2,2);
+  color: white;
+}
+
+#create-twit-button:hover{
+  background-color: #4da6ff;
+  transform: scale(3,3);
+}
